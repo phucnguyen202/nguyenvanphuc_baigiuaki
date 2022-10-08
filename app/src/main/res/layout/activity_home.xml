@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnFb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q4"
+    tools:context=".Home">
+
+
+    <ImageView
+        android:id="@+id/btnProfile"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/q8"
+        android:text="Profile" />
+
+    <ImageView
+        android:id="@+id/btnHome"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/q2"
+        android:text="Home" />
+
+    <ImageView
+        android:id="@+id/btnList"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:layout_marginHorizontal="260dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/q9"
+        android:text="List" />
+
+    <ImageView
+        android:id="@+id/btnQuayLai"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/q5"
+        android:text="Back" />
+
+    <ImageView
+
+        android:id="@+id/btnfa"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="1dp"
+
+        android:src="@drawable/q12"
+        android:text="fb" />
+
+    <ImageView
+
+        android:id="@+id/btnPhoto"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="200dp"
+
+        android:src="@drawable/q10"
+        android:text="Photo" />
+    <ImageView
+
+        android:id="@+id/btnMes"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+
+        android:src="@drawable/q11"
+        android:text="Messenger" />
+    <ImageView
+
+        android:id="@+id/btnIg"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="100dp"
+
+        android:src="@drawable/q13"
+        android:text="Intergram" />
+
+    <ImageView
+
+        android:id="@+id/btnTw"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/q14"
+        android:text="Twitter" />
+
+    <ImageView
+
+        android:id="@+id/btnTele"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/q15"
+        android:text="Twitter" />
+
+
+
+</RelativeLayout>

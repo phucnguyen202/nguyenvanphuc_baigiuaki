@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/btn_them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item thêm"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck" />
+
+    <EditText
+        android:id="@+id/btnThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_them"
+        android:hint="Mô tả thêm"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnThem"
+        android:text="Thêm"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:layout_width="410dp"
+        android:layout_height="569dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="161dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
